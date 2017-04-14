@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html ng-app='app'>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./main.css">
+    <title></title>
+  </head>
+  <body ng-controller='mainCtrl'>
+
+
+
+    <h1>Users</h1>
+
+    <button ng-click='getUsers()'>GET All</button>
+    <button ng-click='getOneUser(1)'>Get Joe</button>
+    <button ng-click='getOneUser(2)'>Get Doug</button>
+    <button ng-click='getOneUser(3)'>Get Todd</button>
+    <button ng-click='clear("people")'>Clear</button>
+
+    <br>
+    <br>
+
+    <button ng-click='getAuto("mater")'>Get Truck</button>
+    <button ng-click='getAuto("lightning")'>Get Car</button>
+    <button ng-click='clear("car")'>Clear</button>
+
+
+    <section class='users'>
+      <div ng-repeat='user in users'>
+        <h3>Name: {{ user.name }}</h3>
+        <p>Id: {{ user.id }}</p>
+        <div>
+          <h4>Talents:</h4>
+          <ul>
+            <li ng-repeat='talent in user.talents'>{{ talent }}</li>
+          </ul>
+          <img class='img' ng-src="{{user.img}}">
+        </div>
+      </div>
+    </section>
+
+    <div ng-if='auto.auto'>
+        <h3>Name: {{ auto.auto }}</h3>
+        <img ng-src="{{ auto.img }}">
+    </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js" charset="utf-8"></script>
+    <script src="./app.js" charset="utf-8"></script>
+    <script src="./mainCtrl.js" charset="utf-8"></script>
+    <script src="./mainService.js" charset="utf-8"></script>
+  </body>
+</html>
