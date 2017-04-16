@@ -1,0 +1,15 @@
+<h1>Teacher sign-in</h1>
+
+<p>Username:</p>
+<input ng-model='username'>
+<p>Password:</p>
+<input ng-model='password' type='password'>
+<button ng-click='signIn(username, password)' type="button" name="button">Sign In</button>
+
+
+<h1 ng-if='person'>You are logged in</h1>
+<p ng-if='person'>Name: {{person.name}}</p>
+<p ng-if='person'>Age: {{person.age}}</p>
+<ul>
+  <li ng-repeat='friend in person.friends'> {{ friend }} </li>
+</ul>
