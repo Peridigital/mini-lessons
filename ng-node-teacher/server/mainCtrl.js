@@ -3,7 +3,7 @@ const info = {
   password: 'alfred',
   name: 'Bruce Wayne',
   age: '30',
-  friends: ['superman', 'flash', 'wonderwoman']
+  friends: ['superman', 'flash', 'wonderwoman', 'green arrow']
 }
 
 module.exports = {
