@@ -14,4 +14,4 @@ Your task:
     a. the user's info of the button that was clicked on should be displaying <br />
     b. the user's info that is being displayed should be based on the user id in the url <br />
 
-3. Show your mentors when you are finished.    
+3. Show your mentor when you are finished.    
