@@ -15,5 +15,6 @@ Using ng-repeat in the studentTmpl.html file, repeat the student data. <br />
 - the 'Show grade' button should be hidden
 - the student's grade should be shown
 - the 'Hide grade' button should be shown <br />
+- the opposite should occur when the 'Hide grade' button is clicked on <br />
 
 6. After the functionality of showing and hiding the students' buttons and grades is completed, show your mentor this project.
