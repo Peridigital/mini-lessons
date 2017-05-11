@@ -1,0 +1,79 @@
+.container {
+  width: 100%;
+  height: 1000px;
+}
+
+.all {
+  width: 100%;
+  height: 1000px;
+  position: fixed;
+}
+
+#one {
+  background: url('./assets/parallax0.png');
+  background-color: #ffaf1b;
+  background-position: bottom center;
+  z-index: 0;
+}
+#two {
+  background: url('./assets/parallax1.png');
+  z-index: 1;
+  background-position: bottom center;
+  background-size: auto 1038px;
+}
+#three {
+  top: 0px;
+  background: url('./assets/parallax2.png');
+  z-index: 2;
+  background-size: auto 1038px;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+#four {
+  top: 0px;
+  background: url('./assets/parallax3.png');
+  background-repeat: no-repeat;
+  background-size: auto 1038px;
+  background-position: bottom center;
+  z-index: 3;
+}
+#five {
+  top: 0px;
+  background: url('./assets/parallax4.png');
+  background-repeat: no-repeat;
+  background-size: auto 1038px;
+  background-position: bottom center;
+  z-index: 4;
+}
+#six {
+  top: 0px;
+  background: url('./assets/parallax5.png');
+  background-repeat: no-repeat;
+  background-size: auto 1038px;
+  background-position: bottom center;
+  z-index: 5;
+}
+#seven {
+  top: 0px;
+  background: url('./assets/parallax6.png');
+  background-repeat: no-repeat;
+  background-size: auto 1038px;
+  background-position: bottom center;
+  z-index: 6;
+}
+#eight {
+  top: 0px;
+  background: url('./assets/parallax7.png');
+  background-repeat: no-repeat;
+  background-size: auto 1038px;
+  background-position: bottom center;
+  z-index: 7;
+}
+.filler {
+  position: relative;
+  top: 280px;
+  width: 100%;
+  height: 1000px;
+  background: black;
+  z-index: 8;
+}
